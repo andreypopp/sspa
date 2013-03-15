@@ -1,0 +1,8 @@
+usage: sspa [APP]
+
+  APP
+    HTML with application definitions, index.html by default
+
+sspa serves APP file for '/' URI and for all URIs which cannot be resolved into
+filesystem path. This allows testing single page applications which use
+pushState API locally in development.
